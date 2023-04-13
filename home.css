@@ -1,0 +1,49 @@
+/*--------------------------- ESTILOS HOME -----------------------------*/
+
+.homeContainer {
+  margin: 100px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.cardContainer {
+  width: 350px;
+  height: 400px;
+  border: 5px solid #678983;
+  background-color: #e6ddc4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardText {
+  width: 90%;
+  text-align: center;
+  height: 30px;
+  color: #181d31;
+}
+
+.cardImg {
+  width: 100%;
+  margin: 0px;
+}
+
+.cardBtn {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #181d31;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 2px 3px #678983;
+  text-align: center;
+  text-decoration: none;
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+.cardBtn:active {
+  box-shadow: 0px 0px darkgray;
+  transform: translate(3px, 2px);
+}

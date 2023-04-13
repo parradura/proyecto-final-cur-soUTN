@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./home.css" />
+    <link rel="icon" href="./assets/imagenes/logo.png" />
+    <title>Proyecto-Final</title>
+  </head>
+  <body>
+    <nav>
+      <a href="./index.html">
+        <svg width="200" height="80">
+          <rect
+            x="45"
+            y="5"
+            width="60"
+            height="35"
+            rx="5"
+            id="mon1"
+            fill="#F0E9D2"
+          ></rect>
+          <rect
+            x="50"
+            y="10"
+            width="50"
+            height="25"
+            rx="5"
+            id="mon2"
+            fill="#495579"
+          ></rect>
+          <polygon
+            points="55 45 ,95 45,115 62,30 62"
+            fill="#F0E9D2"
+            id="tec1"
+          ></polygon>
+          <polygon
+            points="57 48 ,92 48,104 58,43 58"
+            fill="#495579"
+            id="tec2"
+          ></polygon>
+        </svg>
+      </a>
+
+      <ul class="navMenu">
+        <li class="item-navMenu">
+          <a class="item-link" href="./historia.html">HISTORIA</a>
+        </li>
+        <li class="item-navMenu">
+          <a class="item-link" href="./juego.html">JUGUEMOS</a>
+        </li>
+      </ul>
+    </nav>
+    <header>
+      <h1 class="title">PROGRAMACION E HISTORIA</h1>
+    </header>
+
+    <h2>CONTENIDO</h2>
+    <main class="homeContainer">
+      <div class="cardContainer">
+        <img
+          class="cardImg"
+          src="./assets/imagenes/img1.jpg"
+          alt="img1"
+        />
+        <p class="cardText">
+          Conozcamos Un poco sobre la historia de la programacion
+        </p>
+        <a class="cardBtn" href="./historia.html" style="color: #f0f5e4"
+          >Ir a Historia</a
+        >
+      </div>
+
+      <div class="cardContainer">
+        <img
+          class="cardImg"
+          src="./assets/imagenes/img2.jpg"
+          alt="img2"
+        />
+        <p class="cardText">Juguemos un poco sobre la computacion</p>
+        <a class="cardBtn" href="./juego.html" style="color: #f0f5e4"
+          >Ir a juego</a
+        >
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-left">
+        <img class="logo" src="./assets/imagenes/logo.png" alt="logo" />
+        <h3 class="title titulo-foot">
+          PROGRAMACION <br />
+          E <br />
+          HISTORIA
+        </h3>
+      </div>
+      <div>Sitio con fines educativos - Creado por Ignacio Parra</div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

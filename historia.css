@@ -1,0 +1,20 @@
+/*--------------------------- ESTILOS HISTORIA -----------------------------*/
+
+.historiaContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.historiaTextContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 80px 50px;
+  gap: 20px;
+}
+
+.historiaText {
+  width: 45%;
+}

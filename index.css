@@ -1,0 +1,106 @@
+/*--------------------------- ESTILOS GENERALES -----------------------------*/
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: auto 0px;
+}
+
+html {
+  width:100vw 
+}
+body {
+  background-color: rgb(24, 28, 48);
+  color: #e6ddc4;
+}
+p {
+  color: #e6ddc4;
+}
+.title {
+  text-align: center;
+}
+
+/*--------------- NAV -----------------*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 40px;
+}
+.navMenu {
+  display: flex;
+  width: 300px;
+  justify-content: space-around;
+}
+main {
+  padding: 100px 20px;
+}
+.item-navMenu {
+  list-style-type: none;
+}
+.item-link,
+.btn {
+  box-shadow: 2px 3px rgb(103, 137, 131);
+  border-radius: 10px;
+  padding: 10px;
+  text-decoration: none;
+  background-color: rgb(230, 221, 196);
+  color: #181d31;
+  font-weight: 300;
+}
+.item-navMenu:active {
+  transform: translate(3px, 2px);
+}
+.item-navMenu:active > .item-link {
+  box-shadow: 0px 0px;
+}
+
+.flexItem {
+  display: block;
+}
+
+header {
+  background: url(./assets/imagenes/codigo.jpg) 50% 0 fixed;
+  background-size: cover;
+  min-height: 500px;
+  color: #eeeeee;
+  font-size: 28px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 100px;
+}
+h1 {
+  text-shadow: 2px 2px grey, 6px 6px black;
+}
+h2 {
+  text-shadow: 2px 2px black;
+  font-size: 40px;
+  text-align: center;
+  color: rgb(103, 137, 131);
+}
+
+/*--------------- FOOTER -----------------*/
+
+.logo {
+  height: 80px;
+}
+footer {
+  background-color:rgb(103, 137, 131);
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  color: #181d31;
+}
+
+.footer-left {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  height: 60px;
+}
+
+.titulo-foot {
+  font-size: 14px;
+}
