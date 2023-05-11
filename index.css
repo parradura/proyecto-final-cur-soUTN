@@ -18,6 +18,56 @@ p {
   text-align: center;
 }
 
+/*--------------- ANIMACION LOGO -----------------*/
+
+rect#mon1, rect#mon3, rect#mon4, rect#tec1 {
+  animation: part_1 ease-in 5s  ;
+  animation-iteration-count:1 ;
+  }
+  
+rect#mon2,rect#tec2 {
+animation: part_2 ease-in 5s  ;
+animation-iteration-count:1 ;
+}
+@keyframes part_1{
+  0% {
+  transform: translate(0,-10px);
+  opacity:0;}
+  20% {
+  transform: translate(0,-10px);
+  opacity:0;}
+  30% {
+  transform: translate(0,0);
+  opacity:1;}
+  90% {
+  transform: translate(0,0);
+  opacity:1;}
+  
+  100% {
+      transform: translate(0,0);
+      opacity:1;}
+}   
+  
+
+@keyframes part_2 {
+  0% {
+      transform: translate(0,-10px);
+      opacity:0;}
+      30% {
+      transform: translate(0,-10px);
+      opacity:0;}
+      40% {
+      transform: translate(0,0);
+      opacity:1;}
+      90% {
+      transform: translate(0,0);
+      opacity:1;}
+
+      100% {
+          transform:translate(0,0);
+          opacity:1;}
+      }  
+
 /*--------------- NAV -----------------*/
 nav {
   display: flex;
