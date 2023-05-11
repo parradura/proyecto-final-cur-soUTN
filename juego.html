@@ -9,7 +9,6 @@
     <link rel="icon" href="./assets/imagenes/logo.png">
     <title>Proyecto-Final</title>
 </head>
-
 <body>
     <nav>
         <a href="./index.html">
@@ -34,23 +33,24 @@
         <h2>Armemos el rompecabezas y veamos que imagen es...</h2>
         <section class="juego">
             <div class="puzzleDropContainer">
-                <div class="puzzleDrop" id="cajasoltar">
+                <div class="puzzleDrop" id="dropBox1">
                     <p>Arrastre y suelte la imágene aquí</p>
                 </div>
-                <div class="puzzleDrop" id="cajasoltar2">
+                <div class="puzzleDrop" id="dropBox2">
                     <p>Arrastre y suelte la imágene aquí</p>
                 </div>
-                <div class="puzzleDrop" id="cajasoltar3">
+                <div class="puzzleDrop" id="dropBox3">
                     <p>Arrastre y suelte la imágene aquí</p>
                 </div>
             </div>
-            <div class="imgContainer">
-                <img class="img" src="./assets/imagenes/rompe2.png" alt="puzzle-img" />
-                <img class="img" src="./assets/imagenes/Rompe1.png" alt="puzzle-img" />
-                <img class="img" src="./assets/imagenes/Rompe3.png" alt="puzzle-img" />
+            <div class="imgContainer" id="imgContainer">
+                <img id="img1" class="img" src="./assets/imagenes/rompe2.png" alt="puzzle-img" />
+                <img id="img2" class="img" src="./assets/imagenes/Rompe1.png" alt="puzzle-img" />
+                <img id="img3" class="img" src="./assets/imagenes/Rompe3.png" alt="puzzle-img" />
             </div>
         </section>
-        <button class="btn restartBtn">Reiniciar</button>
+        <button class="btn restartBtn" onclick="restart()">Reiniciar</button>
     </main>
 </body>
+<script src="juego.js"></script>
 </html>

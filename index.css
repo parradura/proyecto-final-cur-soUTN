@@ -6,7 +6,6 @@
 }
 
 html {
-  width:100vw 
 }
 body {
   background-color: rgb(24, 28, 48);
@@ -25,6 +24,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin: 0px 40px;
+  min-width: 600px;
 }
 .navMenu {
   display: flex;
